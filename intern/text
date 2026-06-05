@@ -1,0 +1,46 @@
+**Insight:** Clear social stratification - first-class passengers had 2.6x higher survival than third-class.
+
+### Age Patterns
+| Age Group | Survival Rate | vs Average |
+|-----------|--------------|------------|
+| Children (0-12) | 53.2% | +14.8% |
+| Teens (13-18) | 40.1% | +1.7% |
+| Adults (19-35) | 36.8% | -1.6% |
+| Middle-aged (36-60) | 38.1% | -0.3% |
+| Seniors (60+) | 27.3% | -11.1% |
+
+### Fare Analysis
+| Fare Quartile | Average Fare | Survival Rate |
+|---------------|--------------|---------------|
+| Low | $8.05 | 21.3% |
+| Medium-Low | $15.60 | 32.7% |
+| Medium-High | $28.50 | 45.6% |
+| High | $86.40 | 63.5% |
+
+**Correlation:** 0.26 positive correlation between fare and survival
+
+## 4. Multivariate Analysis
+
+### Class and Gender Interaction
+| Class | Female Survival | Male Survival |
+|-------|----------------|---------------|
+| First | 96.8% | 36.9% |
+| Second | 92.1% | 15.7% |
+| Third | 50.0% | 13.5% |
+
+**Key Insight:** First-class women had nearly 97% survival, while third-class men had only 13.5%
+
+### Family Size Impact
+| Family Size | Count | Survival Rate |
+|-------------|-------|---------------|
+| 1 (Alone) | 537 | 30.4% |
+| 2 | 158 | 55.3% |
+| 3 | 89 | 57.4% |
+| 4 | 52 | 44.2% |
+| 5+ | 55 | 26.0% |
+
+**Optimal size:** 2-3 family members showed best survival rates
+
+## 5. Correlation Analysis
+
+### Feature Correlation Matrix

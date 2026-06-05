@@ -1,0 +1,96 @@
+
+**Strongest predictors (absolute correlation):**
+1. Sex (0.543)
+2. Pclass (-0.338)
+3. Fare (0.257)
+
+## 6. Statistical Tests
+
+### Chi-square Tests
+- **Gender vs Survival:** χ² = 260.7, p < 0.001 (significant)
+- **Class vs Survival:** χ² = 102.9, p < 0.001 (significant)
+- **Embarked vs Survival:** χ² = 18.5, p < 0.001 (significant)
+
+### T-tests
+- **Age difference:** Survivors (28.3 yrs) vs Non-survivors (30.6 yrs), p = 0.025
+- **Fare difference:** Survivors ($48.4) vs Non-survivors ($22.1), p < 0.001
+
+## 7. Missing Data Analysis
+
+| Feature | Missing Count | Missing % | Handling Method |
+|---------|---------------|-----------|-----------------|
+| Age | 177 | 19.9% | Median imputation |
+| Cabin | 687 | 77.1% | Excluded from analysis |
+| Embarked | 2 | 0.2% | Mode imputation |
+
+## 8. Key Insights Summary
+
+### Primary Findings
+1. **"Women and children first" policy was followed**, but primarily benefited first-class women
+2. **Socioeconomic status heavily influenced survival** - wealth determined access to lifeboats
+3. **Being alone reduced survival chances** - family groups helped with access and assistance
+4. **Age played a secondary role** after gender and class
+
+### Secondary Patterns
+- Higher fares → better survival (access to upper decks)
+- Families of 2-3 had highest survival coordination
+- Embarkation port C (Cherbourg) had wealthier passengers → higher survival
+
+### Anomalies and Outliers
+- Some wealthy males still perished (Captain, engineers)
+- Several third-class women survived (50% - still lower than 1st/2nd)
+- Young children (under 2) had 100% survival rate
+
+## 9. Limitations
+
+1. **Missing cabin data** prevented detailed location analysis
+2. **No data on boarding time** or lifeboat assignment sequence
+3. **Survival bias** - some factors may be coincidental
+4. **Historical context** - 1912 maritime regulations differ from modern times
+
+## 10. Recommendations
+
+### For Data Analysis Practice
+- Build predictive models using identified key features
+- Perform feature engineering on family and title data
+- Conduct time-based analysis if available
+
+### For Emergency Preparedness
+- Regular drills for all passenger classes
+- Clear evacuation protocols prioritizing vulnerable groups
+- Family reunification procedures
+
+### For Future Research
+- Collect more granular data on lifeboat capacities
+- Study crowd behavior during emergencies
+- Analyze decision-making under time pressure
+
+## 11. Visualizations Generated
+
+| Plot Name | Purpose | Key Finding |
+|-----------|---------|-------------|
+| survival_rate.png | Overall survival | 38.4% survival rate |
+| survival_by_gender.png | Gender comparison | 74% female survival |
+| survival_by_class.png | Class comparison | 63% first-class survival |
+| age_distribution.png | Age patterns | Children had 53% survival |
+| fare_analysis.png | Economic impact | High fare → high survival |
+| correlation_heatmap.png | Feature relationships | Gender strongest predictor |
+| family_impact.png | Family size effect | 2-3 members optimal |
+| survival_heatmap.png | Class-gender interaction | First-class women 97% survival |
+
+## 12. Conclusion
+
+This EDA successfully identified key survival patterns on the Titanic, demonstrating that:
+- **Social structure dramatically influenced outcomes**
+- **Gender was the most significant factor**
+- **Class and economic status determined access to safety**
+- **Family connections provided survival advantages**
+
+The analysis provides valuable insights into human behavior during maritime disasters and highlights systemic inequalities in emergency response. These findings are reproducible and can serve as a foundation for predictive modeling and further research.
+
+---
+
+**Report Date:** June 2026  
+**Analyst:** Data Analytics Intern  
+**Tools Used:** Python (Pandas, NumPy, Matplotlib, Seaborn)  
+**Data Version:** Titanic Dataset v1.0
