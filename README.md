@@ -39,13 +39,14 @@ This project performs comprehensive Exploratory Data Analysis (EDA) on the Titan
 5. **Family**: Small families (1-3 members) had better survival
 
 ## 🛠️ Technologies Used
-- Python 3.9+
+- Python 3.9+ versions
 - Pandas - Data manipulation
 - NumPy - Numerical operations
 - Matplotlib/Seaborn - Visualization
 - Jupyter Notebook - Interactive analysis
 
 ## 📦 Installation
+
 
 ```bash
 # Clone repository
