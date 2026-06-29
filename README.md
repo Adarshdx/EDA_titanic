@@ -48,6 +48,8 @@ This project performs comprehensive Exploratory Data Analysis (EDA) on the Titan
 ## 📦 Installation
 
 
+
+
 ```bash
 # Clone repository
 git clone https://github.com/yourusername/titanic-eda-project.git
