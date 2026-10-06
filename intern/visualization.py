@@ -221,4 +221,3 @@ def plot_survival_heatmap(df):
 .
 .
 .
-.
