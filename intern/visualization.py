@@ -214,3 +214,12 @@ def plot_survival_heatmap(df):
     
     plt.tight_layout()
     return fig
+.
+.
+.
+.
+.
+.
+.
+.
+.
