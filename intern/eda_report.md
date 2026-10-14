@@ -44,3 +44,6 @@ This report presents findings from Exploratory Data Analysis (EDA) on the Titani
 ## 3. Bivariate Analysis
 
 ### Gender Impact on Survival
+.
+.
+.
